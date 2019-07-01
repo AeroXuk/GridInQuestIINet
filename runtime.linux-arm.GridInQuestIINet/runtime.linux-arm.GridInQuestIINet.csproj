@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <Import Project="..\Native.props" />
+  <PropertyGroup>
+    <RuntimeIdentifier>linux-arm</RuntimeIdentifier>
+    <PackageId>runtime.linux-arm.GridInQuestIINet</PackageId>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <Authors>AeroXuk</Authors>
+    <Company>AeroXuk</Company>
+    <Copyright>AeroXuk</Copyright>
+    <Description>Grid In Quest II .Net Wrapper</Description>
+
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <InformationalVersion>1.0.0.0</InformationalVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+
+    <BaseOutputPath>../bin</BaseOutputPath>
+    <PackageOutputPath>../packages</PackageOutputPath>
+    <RestoreSources>../packages;$(RestoreSources)</RestoreSources>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>

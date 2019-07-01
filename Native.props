@@ -1,0 +1,16 @@
+<Project>
+  <Import Project="..\Properties.props" />
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageTags>native</PackageTags>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <NoBuild>true</NoBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="../runtimes/$(RuntimeIdentifier)/native/*" PackagePath="runtimes/$(RuntimeIdentifier)/native/" />
+    <Content Include="../content/*" PackagePath="runtimes/$(RuntimeIdentifier)/native/" />
+  </ItemGroup>
+</Project>
