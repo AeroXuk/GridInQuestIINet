@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Properties.props" />
+  <PropertyGroup>
+    <AssemblyName>GridInQuestIINet</AssemblyName>
+    <RootNamespace>GridInQuestIINet</RootNamespace>
+    <TargetFrameworks>netstandard1.6;netstandard2.0;net40</TargetFrameworks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseOutputPath>../bin</BaseOutputPath>
+    <PackageOutputPath>../packages</PackageOutputPath>
+    <RestoreSources>../packages;$(RestoreSources)</RestoreSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="runtime.linux-arm.GridInQuestIINet" Version="$(AssemblyVersion)" />
+    <PackageReference Include="runtime.linux-x64.GridInQuestIINet" Version="$(AssemblyVersion)" />
+    <PackageReference Include="runtime.linux-x86.GridInQuestIINet" Version="$(AssemblyVersion)" />
+    <PackageReference Include="runtime.win-x64.GridInQuestIINet" Version="$(AssemblyVersion)" />
+    <PackageReference Include="runtime.win-x86.GridInQuestIINet" Version="$(AssemblyVersion)" />
+  </ItemGroup>
+</Project>

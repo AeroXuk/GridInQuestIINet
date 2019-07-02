@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "runtime.linux-arm.GridInQuestIINet", "runtime.linux-arm.GridInQuestIINet\runtime.linux-arm.GridInQuestIINet.csproj", "{3DA00068-62AD-4DF0-87F5-26B88013D96A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "runtime.linux-x64.GridInQuestIINet", "runtime.linux-x64.GridInQuestIINet\runtime.linux-x64.GridInQuestIINet.csproj", "{9DEB6AE6-6A0A-4369-A068-068F717A6D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "runtime.linux-x86.GridInQuestIINet", "runtime.linux-x86.GridInQuestIINet\runtime.linux-x86.GridInQuestIINet.csproj", "{A7AC12FB-3B01-4722-8799-67BB6BF3E1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "runtime.win-x64.GridInQuestIINet", "runtime.win-x64.GridInQuestIINet\runtime.win-x64.GridInQuestIINet.csproj", "{2BB35CD7-18C8-49AB-9DDE-3B2E03088397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "runtime.win-x86.GridInQuestIINet", "runtime.win-x86.GridInQuestIINet\runtime.win-x86.GridInQuestIINet.csproj", "{4E76C699-CAB0-4D6F-BDEF-79A641D3AF72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4896B9CC-AE14-4A6E-A4B0-E3215F4912A5}"
+	ProjectSection(SolutionItems) = preProject
+		Build.cmd = Build.cmd
+		Cleanup.cmd = Cleanup.cmd
+		Native.props = Native.props
+		Properties.props = Properties.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DA00068-62AD-4DF0-87F5-26B88013D96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA00068-62AD-4DF0-87F5-26B88013D96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA00068-62AD-4DF0-87F5-26B88013D96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA00068-62AD-4DF0-87F5-26B88013D96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DEB6AE6-6A0A-4369-A068-068F717A6D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEB6AE6-6A0A-4369-A068-068F717A6D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEB6AE6-6A0A-4369-A068-068F717A6D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEB6AE6-6A0A-4369-A068-068F717A6D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7AC12FB-3B01-4722-8799-67BB6BF3E1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7AC12FB-3B01-4722-8799-67BB6BF3E1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7AC12FB-3B01-4722-8799-67BB6BF3E1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7AC12FB-3B01-4722-8799-67BB6BF3E1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB35CD7-18C8-49AB-9DDE-3B2E03088397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB35CD7-18C8-49AB-9DDE-3B2E03088397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB35CD7-18C8-49AB-9DDE-3B2E03088397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB35CD7-18C8-49AB-9DDE-3B2E03088397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E76C699-CAB0-4D6F-BDEF-79A641D3AF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E76C699-CAB0-4D6F-BDEF-79A641D3AF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E76C699-CAB0-4D6F-BDEF-79A641D3AF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E76C699-CAB0-4D6F-BDEF-79A641D3AF72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA390899-F1D2-42E7-A8E6-5F04236200DA}
+	EndGlobalSection
+EndGlobal
